@@ -1,0 +1,19 @@
+
+**One important point:** don't blindly use the exact commands above until we know your Python file's actual dependencies and how it expects the folders/files to be arranged. Once you share `parser.py`, I can make the README and `requirements.txt` **exactly match your program**.
+
+---
+
+# 4. Your `requirements.txt` is important
+
+This is one of the things that makes a GitHub project much easier for another person to download and run.
+
+For example, if your code contains:
+
+```python
+import pandas
+import pdfplumber
+```
+
+Then your `requirements.txt` should contain:
+
+```
